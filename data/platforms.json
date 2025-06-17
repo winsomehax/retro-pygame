@@ -1,0 +1,37 @@
+{
+  "c64": {
+    "name": "Commodore 64",
+    "manufacturer": "Commodore",
+    "release_year": "1982",
+    "description": "The Commodore 64 is an 8-bit home computer introduced in January 1982 by Commodore International. It has been listed in the Guinness World Records as the highest-selling single computer model of all time.",
+    "emulators": {
+      "vice": {
+        "name": "VICE",
+        "command": "flatpak run net.sf.VICE -pal -autoload %rom -keybuf 'RUN\n'",
+        "description": "Versatile Commodore Emulator",
+        "website": "https://vice-emu.sourceforge.io/"
+      }
+    }
+  },
+  "amiga": {
+    "name": "Amiga",
+    "manufacturer": "Commodore",
+    "release_year": "1985",
+    "description": "The Amiga is a family of personal computers introduced by Commodore in 1985. The original model was part of a wave of 16- and 32-bit computers that featured 256 KB or more of RAM, mouse-based GUIs, and significantly improved graphics and audio over 8-bit systems.",
+    "emulators": {
+      "fsuae": {
+        "name": "FS-UAE",
+        "command": "fs-uae --floppy=%ROM%",
+        "description": "Amiga emulator with modern features",
+        "website": "https://fs-uae.net/"
+      }
+    }
+  },
+  "ps2": {
+    "platform_id": "ps2",
+    "name": "Playstation 2",
+    "manufacturer": "Sony",
+    "release_year": null,
+    "description": ""
+  }
+}
